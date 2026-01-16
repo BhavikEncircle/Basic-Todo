@@ -1,13 +1,13 @@
-import React from "react";
-import Todo_form from "./Todo_form";
+import React from 'react'
+import TodoForm from './Views/TodoForm'
 
 const App = () => {
   return (
-    <div className="main-container">
+    <div className='main-container'>
       <h2>Basic Todo </h2>
-      <Todo_form />
+      <TodoForm />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
